@@ -1,0 +1,259 @@
+@media screen and (max-width: 992px) {
+   .skils {
+      .elments {
+         flex-wrap: wrap;
+         justify-content: center;
+
+         .elem {
+            margin-top: 40px;
+
+         }
+      }
+   }
+
+   .big_slider {
+      .owl-carousel-one {
+         .owl-dots {
+            bottom: 10%;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 768px) {
+
+   h2{
+      padding-top: 50px;
+   }
+   header {
+      background-color: #131212;
+      position: relative;
+   }
+
+   .btn {
+      display: block;
+   }
+
+
+   .menu {
+      display: none;
+      width: 100%;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      z-index: 2;
+
+      ul {
+         display: flex;
+         flex-direction: column;
+         align-items: stretch;
+
+         li a {
+            width: 100%;
+            background-color: #111110;
+            color: #fff;
+
+            &:hover {
+               background-color: black;
+            }
+         }
+      }
+   }
+
+
+   .btn{
+      top: 0;
+      right: 0;
+      width: 50px;
+      height: 50px;
+   }
+
+   .btn span,
+   .btn span::before,
+   .btn span::after {
+      background-color: #fff;
+   }
+
+   .activeMenu {
+      display: block;
+   }
+
+
+   .drop_menu {
+      display: none;
+   }
+
+   .intro {
+      p {
+         margin: 100px 10px 0;
+      }
+   }
+
+   .big_slider {
+
+
+      .owl-carousel {
+
+
+         .item {
+            position: relative;
+
+            .img {
+               max-width: 100%;
+               height: 500px;
+            }
+
+            .big_text {
+               position: absolute;
+
+               box-sizing: border-box;
+               width: 100%;
+               height: 100%;
+               background-color: rgba(31, 27, 27, 0.404);
+               text-align: center;
+               padding: 0;
+
+               h2 {
+                  padding-top: 70px;
+                  color: #fff;
+               }
+
+               .text_p {
+                  display: block;
+                  width: 100%;
+                  margin-top: 40px;
+                  color: #fff;
+                  font-size: 14px;
+                  font-weight: 500;
+
+                  p {
+                     margin: 20px 0;
+                  }
+               }
+            }
+         }
+
+         .owl-dots {
+            right: 50%;
+            transform: translate(50%);
+
+         }
+      }
+
+   }
+
+   .counter {
+      height: 300px;
+
+      .elem1{
+         font-size: 25px;
+      }
+      .elem2{
+         font-size: 12px;
+      }
+   }
+
+
+   .drop {
+      padding: 0 0 40px 0;
+   }
+
+   .form {
+      height: 400px;
+   }
+
+   footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+}
+
+@media only screen and (max-width: 550px) {
+   .drop {
+
+      .container {
+         margin: 0 10px;
+
+         .drop_blocks {
+            flex-wrap: wrap;
+
+            .drop_block {
+               width: 100%;
+               margin-bottom: 2%;
+
+               &:last-child {
+                  margin-bottom: 0;
+               }
+            }
+         }
+      }
+
+   }
+}
+
+@media only screen and (max-width: 480px) {
+
+   .slider-2,
+   .slider-3 {
+
+      .container {
+
+         .owl-carousel {
+
+            .owl-dots {
+               margin-top: 40px;
+            }
+         }
+      }
+   }
+
+   .form {
+      height: 300px;
+
+      .container {
+
+         .wrap {
+
+            .input {
+
+               input {
+                  width: 200px;
+                  height: 43px;
+               }
+
+               a {
+                  height: 45px;
+               }
+            }
+         }
+      }
+   }
+
+   .drop {
+
+      .container {
+
+         .circle {
+            top: -20px;
+            width: 40px;
+            height: 40px;
+         }
+
+         .drop_blocks {
+            margin-top: 40px;
+         }
+
+         .buttons {
+            margin-top: 40px;
+         }
+      }
+   }
+
+   footer {
+      padding: 30px 0;
+   }
+
+}
